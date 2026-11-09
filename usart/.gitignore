@@ -1,0 +1,41 @@
+# ===== Keil MDK 编译产物 =====
+**/MDK-ARM/*/
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.sct
+*.lnp
+*.htm
+*.build_log.htm
+
+# ===== IDE / 编辑器配置 =====
+*.uvguix.*
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# ===== 通用构建产物 =====
+build/
+cmake-build-*/
+out/
+
+# ===== CubeMX 全量拷贝但本工程未使用的 CMSIS 组件 =====
+**/Drivers/CMSIS/Lib/
+**/Drivers/CMSIS/DSP/
+**/Drivers/CMSIS/NN/
+**/Drivers/CMSIS/RTOS/
+**/Drivers/CMSIS/RTOS2/
+**/Drivers/CMSIS/docs/
+**/Drivers/CMSIS/Core_A/
+**/Drivers/CMSIS/Device/ST/STM32F1xx/Source/
